@@ -26,10 +26,10 @@ const useTreeItemStyles = makeStyles(theme => ({
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        minHeight: '3rem',
+        //minHeight: '3rem',
         color: '#0000004d',
         '&:hover': {
-            background: '#eae5e5',
+            //background: '#eae5e5',
             borderTopRightRadius: 15,
             borderBottomRightRadius: 15
         },
@@ -108,11 +108,11 @@ function TreeItem(props) {
 
     function li() {
         return (
-            <ButtonBase>
+            <ButtonBase className={classes.listContent}>
                 <Grid container
                     className={
                         clsx(
-                            classes.listContent,
+                            
                             !children && classes.listMarginLeft,
                             //selectedItem === label ? classes.selectedItem : classes.defaultItem
                         )
