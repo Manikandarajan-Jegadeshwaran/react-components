@@ -2,7 +2,7 @@
   "name": "components",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Manikandarajan-Jegadeshwaran.github.io/react-components",
+  "homepage": "http://Manikandarajan-Jegadeshwaran.github.io/react-components/components",
   "dependencies": {
     "@material-ui/core": "^4.4.2",
     "@material-ui/icons": "^4.4.1",
@@ -16,7 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-      "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
