@@ -4,7 +4,7 @@ import { TreeView, TreeItem} from '../components/custom-tree/index';
 
 const useStyles = makeStyles(theme => ({
     container: {
-        background: '#f5f5f5',
+        background: '#f5f5f561',
         //marginRight: 15,
         padding: '10px 20px',
         //margin: 10,
