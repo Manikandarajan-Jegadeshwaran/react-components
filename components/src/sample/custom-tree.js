@@ -82,10 +82,10 @@ const contents = [
                                 </tr>
                                 <tr>
                                     <td>
-                                        Squid yrs
+                                        Squid
                                     </td>
                                     <td>
-                                        10
+                                        10 yrs
                                     </td>
                                 </tr>
                                 </tbody>
